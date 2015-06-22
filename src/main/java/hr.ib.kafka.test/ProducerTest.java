@@ -39,9 +39,9 @@ public class ProducerTest {
         }
     }
 
-    private void sleep(int msgProduceDelay) {
+    private void sleep(int millis) {
         try {
-            Thread.sleep(msgProduceDelay);
+            Thread.sleep(millis);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
